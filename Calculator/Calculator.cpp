@@ -56,7 +56,7 @@ void preprocess(cv::Mat& image, cv::Mat& gray, cv::Mat& thresh)
 
 bool verifyCharacter(const cv::Rect& rect)
 {
-	if (rect.width > 50 && rect.height > 50 && rect.width * rect.height > 2000 && rect.height / rect.width < 7)
+	if (rect.width > 70 && rect.height > 100 && rect.width * rect.height > 6500 && rect.height / rect.width < 7)
 	{
 		return true;
 	}

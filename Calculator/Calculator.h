@@ -8,6 +8,9 @@
 #include<opencv2\ml.hpp>
 #include<opencv2\highgui.hpp>
 
+// Project directories
+//#include"Configs.h"
+
 
 /* Function for extracting "v" part from image in HSV colorspace
 *  Gets: BGR image
